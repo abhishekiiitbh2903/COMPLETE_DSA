@@ -1,0 +1,1 @@
+{"name":"Local: debug","url":"c:\\Users\\upend\\OneDrive\\Desktop\\CPP STL\\debug.cpp","tests":[{"id":1666888763521,"input":"1\n5\n3 2 4 6 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\OneDrive\\Desktop\\CPP STL\\debug.cpp","group":"local","local":true}

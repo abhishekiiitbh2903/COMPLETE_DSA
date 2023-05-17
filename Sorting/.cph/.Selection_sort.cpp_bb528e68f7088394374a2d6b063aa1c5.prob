@@ -1,0 +1,1 @@
+{"name":"Local: Selection_sort","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\Sorting\\Selection_sort.cpp","tests":[{"id":1683742572950,"input":"1\n6\n13 46 24 52 20 9","output":"9 13 20 24 46 52"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\Sorting\\Selection_sort.cpp","group":"local","local":true}
