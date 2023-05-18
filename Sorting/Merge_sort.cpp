@@ -1,3 +1,6 @@
+// Time Complexity : O(n(logn)) logn for dividing and n for merging them 
+// Space Complexity :o(n) as in each iteration of mergin the hypothetical arrays we are creating temp array 
+
 #include<bits/stdc++.h>
 using namespace std ;
 #define long long int int;
