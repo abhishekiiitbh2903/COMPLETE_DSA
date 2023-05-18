@@ -1,0 +1,1 @@
+{"name":"Local: Recursive_Bubble_Sort","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\Sorting\\Recursive_Bubble_Sort.cpp","tests":[{"id":1684439596328,"input":"1\n5\n1 4 5 6 2","output":"1 2 4 5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\Sorting\\Recursive_Bubble_Sort.cpp","group":"local","local":true}
