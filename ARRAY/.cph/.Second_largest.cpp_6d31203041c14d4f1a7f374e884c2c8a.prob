@@ -1,0 +1,1 @@
+{"name":"Local: Second_largest","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Second_largest.cpp","tests":[{"id":1684846677974,"input":"1\n6\n5 2 4 1 7 7","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Second_largest.cpp","group":"local","local":true}

@@ -1,3 +1,6 @@
+// Time Complexity is O(nlogn) same as that of merge sort 
+// Space Complexity is O(1) ignoring recursive call stack space (unlike O(n) in merge sort )
+// So Advantage of using quick sort is that it takes less space i.e constant
 #include<bits/stdc++.h>
 using namespace std ;
 #define long long int int;
