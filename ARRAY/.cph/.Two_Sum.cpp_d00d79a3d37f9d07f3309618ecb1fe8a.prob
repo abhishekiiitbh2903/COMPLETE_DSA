@@ -1,0 +1,1 @@
+{"name":"Local: Two_Sum","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Two_Sum.cpp","tests":[{"id":1685209146830,"input":"2\n5 14\n2 6 5 8 11\n5 15\n2 6 5 8 11","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Two_Sum.cpp","group":"local","local":true}
