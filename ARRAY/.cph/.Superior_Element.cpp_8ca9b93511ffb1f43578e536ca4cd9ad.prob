@@ -1,0 +1,1 @@
+{"name":"Local: Superior_Element","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Superior_Element.cpp","tests":[{"id":1685373026315,"input":"1\n4\n1 2 3 2","output":"2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Superior_Element.cpp","group":"local","local":true}

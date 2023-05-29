@@ -1,0 +1,1 @@
+{"name":"Local: Printing_Max_SubArray","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Printing_Max_SubArray.cpp","tests":[{"id":1685350266041,"input":"1\n8\n-2 -3 4 -1 -2 1 5 -3","output":"4 -1 -2 1 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Printing_Max_SubArray.cpp","group":"local","local":true}

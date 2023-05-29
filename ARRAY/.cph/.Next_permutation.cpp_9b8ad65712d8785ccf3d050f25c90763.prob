@@ -1,0 +1,1 @@
+{"name":"Local: Next_permutation","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Next_permutation.cpp","tests":[{"id":1685353341774,"input":"1\n6\n1 2 3 4 5 6","output":"1 2 3 4 6 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Next_permutation.cpp","group":"local","local":true}
