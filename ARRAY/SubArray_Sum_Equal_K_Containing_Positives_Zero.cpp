@@ -140,3 +140,7 @@ cout<<maxLen<<endl;
 }
 return 0;
 }
+
+// tc == we might think as there two nested while loops but the max it can iterate will be roughly around so it will be o(n^2 ) but the max iteration it could have would be roughly around o(2n) so tc ==o(2n)
+
+// sc= o(1) no extra space 

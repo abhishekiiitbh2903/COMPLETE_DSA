@@ -1,4 +1,4 @@
-// Question is asked to calculate whether there are two such numbers present in vector such that when they are summed up equates to target and if exist return yes else no  
+// Question is asked to calculate whether there are two such numbers present in vector such that when they are summed up equates to target and if exist (======> return yes else no <=========)
 // Numbers from same index are not allowed 
 
 // #include<bits/stdc++.h>
@@ -157,3 +157,6 @@ flag==true?cout<<"YES"<<endl:cout<<"NO"<<endl;
 }
 return 0;
 }
+
+// tc = 0(n)+o(nlogn)for sorting
+// sc =o(1)

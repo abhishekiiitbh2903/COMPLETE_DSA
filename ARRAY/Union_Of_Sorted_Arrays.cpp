@@ -1,29 +1,29 @@
 // Let's code the bruteforce
-// #include<bits/stdc++.h>
-// using namespace std ;
-// #define long long int int;
-// signed main(){
-// int t;
-// cin>>t;
-// while(t--){
-// int n ,m;
-// cin>>n>>m;
-// vector<int>v1(n);
-// vector<int>v2(m);
-// for(auto &it:v1) cin>>it;
-// for(auto &it:v2) cin>>it;
-// set<int>st;
-// for(auto &it:v1) st.insert(it); //nlogn (logn is size of set)
-// for(auto &it:v2) st.insert(it); //mlogn (logn is size of set)
-// vector<int>result;
-// for(auto &it:st){
-//   result.push_back(it); //o(n+m)
-// }
-// for(auto &i:result) cout<<i<<" ";
-// cout<<endl;
-// }
-// return 0;
-// }
+#include<bits/stdc++.h>
+using namespace std ;
+#define long long int int;
+signed main(){
+int t;
+cin>>t;
+while(t--){
+int n ,m;
+cin>>n>>m;
+vector<int>v1(n);
+vector<int>v2(m);
+for(auto &it:v1) cin>>it;
+for(auto &it:v2) cin>>it;
+set<int>st;
+for(auto &it:v1) st.insert(it); //nlogn (logn is size of set)
+for(auto &it:v2) st.insert(it); //mlogn (logn is size of set)
+vector<int>result;
+for(auto &it:st){
+  result.push_back(it); //o(n+m)
+}
+for(auto &i:result) cout<<i<<" ";
+cout<<endl;
+}
+return 0;
+}
 
 // total tc =O(nlogn+mlogn+n+m)
 // sc=o(n+m)
@@ -97,3 +97,6 @@ signed main()
     }
     return 0;
 }
+
+// tc : o(n1+n2)
+// sc:o(n1+n2)

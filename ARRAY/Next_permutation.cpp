@@ -203,3 +203,7 @@ signed main()
     }
     return 0;
 }
+
+// t.c. roughly around o(4n) n for iterating from n-2 till 0 to find breaking point thenafter iterating from n-1 till found idx to find first value just greater than v[idx] and then o(n) to reverse and then o(n) to print 
+
+// S.C.= o(1) No Extra Space 

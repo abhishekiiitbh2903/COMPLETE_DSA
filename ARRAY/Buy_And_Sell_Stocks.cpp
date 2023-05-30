@@ -22,3 +22,7 @@ cout<<maxProfit<<endl;
 }
 return 0;
 }
+
+// tc= o(n)
+// sc=o(1)
+

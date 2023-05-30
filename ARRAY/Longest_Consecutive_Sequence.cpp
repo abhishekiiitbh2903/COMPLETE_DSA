@@ -74,32 +74,43 @@
 
 // Optimal Solution
 
-#include<bits/stdc++.h>
-using namespace std ;
+#include <bits/stdc++.h>
+using namespace std;
 #define long long int int;
-signed main(){
-int t;
-cin>>t;
-while(t--){
-int n ;
-cin>>n;
-vector<int>v(n);
-for(auto &it:v) cin>>it;
-unordered_set<int>st;
-int longest=0;
-for(auto &it:v) st.insert(it);
-for(auto &it:st){
-    if(st.find(it-1)==st.end()){
-        int cnt=1;
-        int x=it;
-        while(st.find(x+1)!=st.end()){
-            cnt++;
-            x+=1;
+signed main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> v(n);
+        for (auto &it : v)
+            cin >> it;
+        unordered_set<int> st;
+        int longest = 0;
+        for (auto &it : v)
+            st.insert(it);
+        for (auto &it : st)
+        {
+            if (st.find(it - 1) == st.end())
+            {
+                int cnt = 1;
+                int x = it;
+                while (st.find(x + 1) != st.end())
+                {
+                    cnt++;
+                    x += 1;
+                }
+                longest = max(longest, cnt);
+            }
         }
-longest=max(longest,cnt);
+        cout << longest << endl;
     }
+    return 0;
 }
-cout<<longest<<endl;
-}
-return 0;
-}
+
+// Since there are two loop which are nested i.e. while inside for so we might think it's time complexity will sum up to near around o(n^2) but since we are entering into while loop after a certain if condition and that prevents unnecessary iterations so it will be around {========>0(2n)<=========} +O(n) for storing elements into set so overall it's o(3n)
+
+// sc=o(n) provided every element is unique

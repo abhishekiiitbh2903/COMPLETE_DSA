@@ -21,3 +21,5 @@
  }
  return 0;
  }
+
+ // tc being O(2n) and sc being constant

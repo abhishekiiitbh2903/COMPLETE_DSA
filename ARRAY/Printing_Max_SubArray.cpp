@@ -30,3 +30,6 @@ cout<<endl;
 }
 return 0;
 }
+
+// tc= o(n)+o(ansEnd-ansStart) ~= 0(2n)
+//sc=o(1) no extra space 

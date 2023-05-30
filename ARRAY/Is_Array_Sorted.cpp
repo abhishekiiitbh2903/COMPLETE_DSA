@@ -20,3 +20,6 @@ while(t--){
 }
 return 0;
 }
+
+// We are iterating once through entire array so O(n)
+// S.C. o(1) as we are talking always about extra space whenever we are discussing space complexity..

@@ -1,3 +1,5 @@
+// Max Consecutive Sum
+// Optimal SOlution
 #include<bits/stdc++.h>
 using namespace std ;
 #define long long int int;
@@ -22,3 +24,6 @@ cout<<mx<<endl;
 }
 return 0;
 }
+
+// tc =o(n)
+// no extra space so o(1)

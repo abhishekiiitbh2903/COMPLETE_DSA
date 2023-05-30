@@ -1,3 +1,5 @@
+// Question is asked to calculate whether there are two such numbers present in vector such that when they are summed up equates to target and if exist (======> return indexes of two numbers <=========)
+
 // #include<bits/stdc++.h>
 // using namespace std ;
 // #define long long int int;
@@ -92,33 +94,33 @@
 
 // using Unordered Map
 
-#include<bits/stdc++.h>
-using namespace std ;
-#define long long int int;
-signed main(){
-int t;
-cin>>t;
-while(t--){
-int n,target;
-cin>>n>>target;
-vector<int>v(n);
-for(auto &it:v) cin>>it;
-unordered_map<int,int>mp;
-int flag=1;
-for(int i=0;i<n;i++){
-int x=v[i];
-int rem=target-x;
-if(mp.find(rem)!=mp.end()){
-  cout<<mp[rem]<<" "<<i<<endl;
-  flag=0;
-  break;
-}
-mp[x]=i;
-}
-if(flag==1)cout<<0<<" "<<0<<endl;
-}
-return 0;
-}
+// #include<bits/stdc++.h>
+// using namespace std ;
+// #define long long int int;
+// signed main(){
+// int t;
+// cin>>t;
+// while(t--){
+// int n,target;
+// cin>>n>>target;
+// vector<int>v(n);
+// for(auto &it:v) cin>>it;
+// unordered_map<int,int>mp;
+// int flag=1;
+// for(int i=0;i<n;i++){
+// int x=v[i];
+// int rem=target-x;
+// if(mp.find(rem)!=mp.end()){
+//   cout<<mp[rem]<<" "<<i<<endl;
+//   flag=0;
+//   break;
+// }
+// mp[x]=i;
+// }
+// if(flag==1)cout<<0<<" "<<0<<endl;
+// }
+// return 0;
+// }
 
 // tc =o(n) in worst case o(n^2)
 // sc =o(n)

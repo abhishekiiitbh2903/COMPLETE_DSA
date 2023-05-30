@@ -64,7 +64,7 @@
 // tc =o(nlogn) filling the map + o(n) iterating the map
 // sc=o(n) as in worst case each element of array can be unique
 
-// Optimal Approach 
+// Optimal Approach =====> Voting Algorithm <=======
 // Intuition : We will find the probable element which can have frequency greater than n/2 
 
 // We will use +- concept as all elements which will have frequency less than n/2 there will be their counterpart //present in array to cancel it out 
@@ -100,5 +100,9 @@ else cout<<"NO SUCH ELEMENT EXISTS"<<endl;
 }
 return 0;
 }
+
+// T.C. = o(n)+o(n) each for implementing voting algo and then validating whether the probable answer can be answer or not . If in Question , It would be specifically mentioned that majority element will exist then we need not to spend extra o(n) in validating the probable answer so our tc will be somewhere around o(n)
+
+//S.C. =o(1) no extra space we are taking 
 
 

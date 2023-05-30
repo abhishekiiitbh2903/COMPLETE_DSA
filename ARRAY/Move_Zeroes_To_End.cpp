@@ -67,3 +67,6 @@ cout<<endl;
 }
 return 0;
 }
+
+// tc is o(n) as we are starting second loop from j+1 so in overall we are iterating through vector only once 
+// sc is o(1) as no extra space 
