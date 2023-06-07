@@ -13,8 +13,7 @@ void Recursive_Selection_Sort(vector<int>& v , int start , int size){
     int temp =v[start];
     v[start]=v[mini];
     v[mini]=temp;
-    Recursive_Selection_Sort(v,start+1,size);
-
+    Recursive_Selection_Sort(v,start+1,size);    
 }
 signed main(){
 int t;

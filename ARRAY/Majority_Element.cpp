@@ -84,7 +84,6 @@ int count=0,ele=-1;
 for(int i=0;i<n;i++){
   if(count==0){
     ele=v[i];
-    count++;
   }
   if(v[i]==ele) count++;
   else count--;

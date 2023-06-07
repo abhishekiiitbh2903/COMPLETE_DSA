@@ -80,3 +80,5 @@ cout<<cnt<<endl;
 }
 return 0;
 }
+// tc=o(n) unordered_map
+// sc=o(n)

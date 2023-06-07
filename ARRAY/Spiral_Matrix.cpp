@@ -117,3 +117,6 @@ cout<<endl;
 }
 return 0;
 }
+
+// tc =o(m*n) every element is iterated once 
+// sc=o(n) to return answer 

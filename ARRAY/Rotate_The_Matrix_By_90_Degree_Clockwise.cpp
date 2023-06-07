@@ -99,3 +99,6 @@ signed main()
     }
     return 0;
 }
+// T.C> o(m*n)
+// S.C> o(1) constant space 
+

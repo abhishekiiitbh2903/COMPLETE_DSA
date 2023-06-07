@@ -1,0 +1,1 @@
+{"name":"Local: 4_sum","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\4_sum.cpp","tests":[{"id":1686137745333,"input":"1\n6 0\n1 0 -1 0 -2 2","output":"-2 -1 1 2 \n-2 0 0 2 \n-1 0 0 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\4_sum.cpp","group":"local","local":true}
