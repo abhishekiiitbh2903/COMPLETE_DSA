@@ -1,0 +1,1 @@
+{"name":"Local: Inversions","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Inversions.cpp","tests":[{"id":1686411988065,"input":"1\n5\n3 2 4 1 3","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Inversions.cpp","group":"local","local":true}

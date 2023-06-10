@@ -1,0 +1,1 @@
+{"name":"Local: Maximum_Product_SubArray","url":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Maximum_Product_SubArray.cpp","tests":[{"id":1686413651280,"input":"1\n4\n2 3 -2 4","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\upend\\Desktop\\Striver DSA\\ARRAY\\Maximum_Product_SubArray.cpp","group":"local","local":true}
