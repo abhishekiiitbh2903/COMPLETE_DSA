@@ -32,7 +32,7 @@
 // }
 
 // Tc=o(n^3)
-// Sc =o(n^2)
+// Sc =o(1)
 
 // #include<bits/stdc++.h>
 // using namespace std ;

@@ -50,7 +50,7 @@
 
 
 // Let's move to the better solution 
-// we will go for o(n^3) as fouth number will be equal to negation of (summation of v[i]+v[j],v[k]);
+// we will go for o(n^3) as fouth number will be equal to negation of target-(summation of v[i]+v[j],v[k]);
 // We will fix i and j and hash numbers between j and k 
 
 // #include<bits/stdc++.h>
